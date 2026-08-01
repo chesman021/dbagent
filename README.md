@@ -2,8 +2,9 @@
 
 
 # Ejemplo de uso Response
+respuesta ante caso de busqueda de usuario simulacion
+
 def obtener_usuario(user_id: int):
-    # Simulación de lectura de BD
     usuario = {
         "id": user_id,
         "nombre": "Carlos",
