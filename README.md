@@ -4,13 +4,13 @@
 # Ejemplo de uso Response
 respuesta ante caso de busqueda de usuario simulacion
 
-def obtener_usuario(user_id: int):
-    usuario = {
-        "id": user_id,
-        "nombre": "Carlos",
-        "salario": Decimal("15500.50"),
-        "creado_el": datetime.now(),
-    }
+    def obtener_usuario(user_id: int):
+        usuario = {
+            "id": user_id,
+            "nombre": "Carlos",
+            "salario": Decimal("15500.50"),
+            "creado_el": datetime.now(),
+        }
 
     if not usuario:
         res = ApiResponse.error(
