@@ -2,14 +2,15 @@
 
 
 # Ejemplo de uso Response
-def obtener_usuario(user_id: int):
-    # Simulación de lectura de BD
-    usuario = {
-        "id": user_id,
-        "nombre": "Carlos",
-        "salario": Decimal("15500.50"),
-        "creado_el": datetime.now(),
-    }
+respuesta ante caso de busqueda de usuario simulacion
+
+    def obtener_usuario(user_id: int):
+        usuario = {
+            "id": user_id,
+            "nombre": "Carlos",
+            "salario": Decimal("15500.50"),
+            "creado_el": datetime.now(),
+        }
 
     if not usuario:
         res = ApiResponse.error(
